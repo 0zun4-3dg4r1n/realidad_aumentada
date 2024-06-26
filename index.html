@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <title>Semillero cientifico</title>
+    <title>Realidad Aumentada</title>
+    <!-- Styles -->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h2><b>Realidad Aumentada</b></h2>
-    <div class="container" id="container">
-        <a href="informatica/" class="btn btn-lg" role="button" id="button" style="background:#0330fc;">Informática </a><br><br>
-        <a href="electronica/" class="btn btn-lg" role="button" id="button" style="background:#02d325;">Electrónica</a><br><br>
-        <a href="robotica/" class="btn btn-lg" role="button" id="button" style="background:#fa5e04;">Robótica</a>
+    <div class="main" style="background-image: url('neon-hex-backgrounds-networking.jpg')">
+        <div class="container">
+            <img class="logo" src="Logo_CNTI_White.png">
+            <div class="content">
+                <h2 class="title">Realidad aumentada</h2>
+                <div class="button-container">
+                    <a href="robotica/"><button class="custom-button">Robótica</button></a>
+                    <a href="electronica/"><button class="button custom-button">Electrónica</button></a>
+                    <a href="informatica/"><button class="custom-button">Informática</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                2024 CNTI. Desarrollado por el Centro Nacional de Tecnologías de Información
+            </div>
+        </div>
     </div>
 </body>
 </html>
